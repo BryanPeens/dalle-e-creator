@@ -10,11 +10,11 @@ const FormField = ({
   isSurpriseMe,
   handleSurpriseMe,
 }) => (
-  <div>
-    <div className="flex items-center gap-2 mb-2">
+  <div className="mb-4">
+    <div className="flex flex-col md:flex-row items-center justify-between mb-2">
       <label
         htmlFor={name}
-        className="block text-sm font-medium text-gray-900"
+        className="block text-sm font-medium text-gray-900 mb-2 md:mb-0 md:mr-2"
       >
         {labelName}
       </label>
