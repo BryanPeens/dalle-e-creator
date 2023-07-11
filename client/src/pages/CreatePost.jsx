@@ -87,11 +87,12 @@ const CreatePost = () => {
     <section className="max-w-7xl mx-auto px-4">
       <div className="text-center mt-4">
         <h1 className="font-extrabold text-[#222328] text-4xl mb-2">
-          Create
+          Create Your Masterpiece
         </h1>
         <p className="mt-2 text-[#666e75] text-lg max-w-[500px] mx-auto">
-          Create imaginative and visually stunning images through DALL-E AI and
-          share them with the community
+          Unleash DALL-E AI to craft captivating, visually stunning images that ignite the imagination. 
+          Share these remarkable creations with the community, fostering a collective appreciation for the 
+          limitless potential of AI-assisted artistry.
         </p>
       </div>
       <form className="mt-8 mx-auto max-w-md" onSubmit={handleSubmit}>
